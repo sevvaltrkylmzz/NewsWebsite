@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="World News">
+  <meta name="keywords" content="website, news, culture,about">
+  <meta name="author" content="Şevval Türkyılmaz">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <title>About Me</title>
+</head>
+<style>
+    *{
+margin:0;
+padding:0;
+}
+
+.container{  padding-top: 20px;
+padding-bottom: 20px;}
+body{
+background-color: #82aa96;
+}
+
+.background-img{
+background-image: url(images/nature.jpg);
+height: 500px;
+width: 90%;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 5% auto;
+padding:20px;
+border: 1px solid #03412c;
+border-radius: 4px;
+box-shadow: 0px 0px 5px #2a3cad;
+position: relative;
+}
+
+.content h2{ font-size:19px;}
+
+.box{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 400px;
+height: 400px;
+background: #3e8d5ca6;
+box-sizing: border-box;
+overflow: hidden;
+box-shadow: 0 20px 50px rgb(23, 32, 90);
+border: 2px solid #2a3cad;
+color: white;
+padding: 20px;
+}
+
+
+.box .content{
+position:absolute;
+top:15px;
+left:15px;
+right:15px;
+bottom:15px;
+border:1px solid #f0a591;
+padding:20px;
+text-align:center;
+box-shadow: 0 5px 10px rgba(9,0,0,0.5);
+
+}
+
+.box span{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: block;
+box-sizing: border-box;
+
+}
+
+.box span:nth-child(1)
+{
+transform:rotate(0deg);
+}
+
+.box span:nth-child(2)
+{
+transform:rotate(90deg);
+}
+
+.box span:nth-child(3)
+{
+transform:rotate(180deg);
+}
+
+.box span:nth-child(4)
+{
+transform:rotate(270deg);
+}
+
+.box span:before
+{
+content: '';
+position: absolute;
+width:100%;
+height: 2px;
+background: #50dfdb;
+animation: animate 4s linear infinite;
+}
+
+</style>
+</head>
+<body>
+<section>
+    <div class="container">
+      <div class="background-img">
+        <div class="box">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <div class="content">
+              
+            <h2>About Us</h2>
+            The travel page consists informations from <a href="https://www.lonelyplanet.com/spain">https://www.lonelyplanet.com/spain</a><br>
+            <a href="https://www.theblondeabroad.com/ultimate-italy-travel-guide/">https://www.theblondeabroad.com/ultimate-italy-travel-guide/</a><br>
+            <a href="https://drifterplanet.com/turkey-itinerary-10-days/">https://drifterplanet.com/turkey-itinerary-10-days/</a><br>
+            <a href="https://www.theblondeabroad.com/ultimate-new-zealand-travel-guide/">https://www.theblondeabroad.com/ultimate-new-zealand-travel-guide/</a><br>
+<a href="https://www.saltinourhair.com/maldives/">https://www.saltinourhair.com/maldives/</a><br>
+
+News from <a href="">BBCNews</a><br>     
+<p class="bg-light text-success m-4">Website Owner: Şevval Türkyılmaz</p>
+        <br><br><br>
+
+  
+</body>
+</html>
